@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Devirium",
+    pageTitle: "🪴 Devirium1",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -66,7 +66,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest", prettyLinks: false }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest"}),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
