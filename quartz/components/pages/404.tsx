@@ -8,7 +8,7 @@ const NotFound: QuartzComponent = ({ cfg, allFiles }: QuartzComponentProps) => {
   const scriptContent = `
     document.addEventListener("DOMContentLoaded", function () {
       const allFiles = ${JSON.stringify(allFiles)};
-      const pathname = decodeURIComponent(window.location.pathname);
+      const pathname = decodeURIComponent(window.location.href);
       const noteName = pathname.split('/').pop();
       const heading = document.getElementById('heading');
       const redirectMessage = document.getElementById('redirect-message');
