@@ -45,6 +45,7 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
         description: notFound,
         frontmatter: { title: notFound, tags: [] },
       })
+      const allFiles = _content.map((c) => c[1].data)
       const componentData: QuartzComponentProps = {
         ctx,
         fileData: vfile.data,
@@ -52,7 +53,7 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
         cfg,
         children: [],
         tree,
-        allFiles: [],
+        allFiles
       }
 
       return [
