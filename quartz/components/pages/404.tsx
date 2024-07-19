@@ -9,7 +9,7 @@ const NotFound: QuartzComponent = ({ cfg, allFiles }: QuartzComponentProps) => {
     document.addEventListener("DOMContentLoaded", function () {
       const allFiles = ${JSON.stringify(allFiles)};
       const pathname = decodeURIComponent(window.location.href);
-      const noteName = pathname.split('/').pop();
+      const noteName = pathname.split('/').pop().replace(/#/g, '');
       const heading = document.getElementById('heading');
       const redirectMessage = document.getElementById('redirect-message');
       const errorMessage = document.getElementById('error-message');
