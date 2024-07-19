@@ -13,9 +13,10 @@ const NotFound: QuartzComponent = ({ cfg, allFiles }: QuartzComponentProps) => {
       const heading = document.getElementById('heading');
       const redirectMessage = document.getElementById('redirect-message');
       const errorMessage = document.getElementById('error-message');
-      
+      log.debug("noteName: " + noteName)
       if (noteName) {
         const matchingFile = allFiles.find(file => file.slug.split('/').pop() === noteName);
+        log.debug("matchingFile: " + matchingFile)
         if (matchingFile) {
           heading.textContent = 'Wait...';
           redirectMessage.style.display = 'block';
