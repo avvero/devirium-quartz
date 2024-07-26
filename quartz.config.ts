@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "ru-RU",
     baseUrl: "devirium.avvero.pw",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
