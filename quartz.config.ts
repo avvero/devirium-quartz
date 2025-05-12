@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'google', tagId: 'G-833JYPZGJ'
+      provider: 'google', tagId: 'G-833JYPZGJP'
     },
     locale: "ru-RU",
     baseUrl: "devirium.avvero.pw",
