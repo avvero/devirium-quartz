@@ -12,11 +12,11 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'google', tagId: 'G-833JYPZGJ'
     },
     locale: "ru-RU",
     baseUrl: "devirium.avvero.pw",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "draft", "limbo", "script"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
