@@ -44,6 +44,7 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+        <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
       </head>
     )
   }
