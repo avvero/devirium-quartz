@@ -1,5 +1,5 @@
 ---
-title: Welcome to Devirium.
+title: Welcome to Duckumentation.
 ---
 
-Devirium is my digital garden.
+This is my digital garden.
