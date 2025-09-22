@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: 'google', tagId: 'G-833JYPZGJP'
     },
     locale: "ru-RU",
-    baseUrl: "devirium.avvero.pw",
+    baseUrl: "duckuments.avvero.pw",
     ignorePatterns: ["private", "templates", ".obsidian", "draft", "limbo", "script"],
     defaultDateType: "created",
     theme: {
